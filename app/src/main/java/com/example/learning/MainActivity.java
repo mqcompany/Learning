@@ -9,6 +9,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button button1;
     Button button2; // КНОПКА
+    Button button3;
 
     TextView textView;
     @Override
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         button1 = (Button)findViewById(R.id.bt1);
         button2 = (Button)findViewById(R.id.bt2);
+        button3 = (Button)findViewById(R.id.bt3);
         textView = (TextView)findViewById(R.id.text);
         button2.setOnClickListener(this);
         //djdjdjdjadhwaduahcjzchkjhcsudhfsdhdkjvkj
@@ -29,6 +31,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(v == button2){
             nw k = new nw();
             k.Settxt(textView);
+        }
+        if (v == button3){
+            nw k  = new nw();
+            k.Settxt("Костян просто офигенный", textView);
         }
     }
 }
