@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button button1;
-    Button button2;
+    Button button2; // КНОПКА
 
     TextView textView;
     @Override
