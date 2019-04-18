@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button2 = (Button)findViewById(R.id.bt2);
         textView = (TextView)findViewById(R.id.text);
         button2.setOnClickListener(this);
-
+        //djdjdjdjadhwaduahcjzchkjhcsudhfsdhdkjvkj
+        //dfgnfdkjghdffgdyugsf
     }
 
     @Override
